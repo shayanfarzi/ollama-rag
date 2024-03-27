@@ -10,6 +10,12 @@ Download packages :
 ```bash
 go mod download
 ```
+Pull Ollama models :
+```
+ollama pull nomic-embed-text
+ollama pull mistral
+```
+
 Install qdrant : 
 ```bash
 docker pull qdrant/qdrant
