@@ -35,6 +35,11 @@ curl -X PUT http://localhost:6333/collections/romeo \
   }'
 ```
 
+Delete a collection
+```bash
+curl --location --request DELETE 'http://localhost:6333/collections/romeo'
+```
+
 ## Using
 
 put you texts in text.txt and run :
