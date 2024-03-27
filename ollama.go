@@ -29,7 +29,7 @@ func useStorage(docs []schema.Document, embedder *embeddings.EmbedderImpl) *qdra
 		return nil
 	}
 
-	if len(docs) == 0 {
+	if len(docs) > 0 {
 		_, err = store.AddDocuments(context.Background(), docs)
 		if err != nil {
 			fmt.Println("Error adding documents", err)
