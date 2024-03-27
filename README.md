@@ -3,6 +3,7 @@ Project for adding RAG to ollama models using :
 - [langchaingo](https://github.com/tmc/langchaingo)
 - [qdrant vector database](https://github.com/qdrant/qdrant)
 - [nomic-embed-text](https://ollama.com/library/nomic-embed-text)
+- [Mistral](https://ollama.com/library/mistral)
 
 ## Installation :
 Download packages : 
